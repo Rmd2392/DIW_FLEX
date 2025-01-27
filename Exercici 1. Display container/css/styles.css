@@ -1,0 +1,106 @@
+.el {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+
+}
+.container{
+    border: 1px solid black;
+    background-color: rgb(208, 212, 211);
+  
+}
+
+/* Exercici 1.2: Mostrar ítems en fila, alineados al inicio */
+.container2 {
+    display: flex;
+    flex-direction: row; /* Los elementos se colocan en fila horizontal (por defecto) */
+    justify-content: flex-start; /* Alinea los elementos al inicio horizontal */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+/* Exercici 1.3: Espacio igual entre los ítems en fila */
+.container3 {
+    display: flex;
+    justify-content: space-around; /* Se distribuyen con espacio igual */
+    align-items: center; /* Alineados verticalmente en el centro */
+}
+
+/* Exercici 1.4: Mostrar ítems en fila alineados a la derecha con espacio */
+.container4 {
+    display: flex;
+    flex-direction: row; /* Elementos en fila */
+    justify-content: flex-end; /* Alineados a la derecha */
+    align-items: flex-end; /* Alineados al fondo */
+    gap: 15px; /* Espaciado entre ítems */
+}
+
+/* Exercici 1.5: Ítems en vertical con altura de 400px */
+.container5 {
+    display: flex;
+    height: 400px; /* Altura del contenedor */
+    justify-content: space-around; /* Espacio igual entre los ítems */
+    align-items: stretch; /* Los elementos hijos ocuparán toda la altura */
+}
+
+/* Exercici 1.6: Ítems centrados en la pantalla */
+.container6 {
+    display: flex;
+    justify-content: center; /* Centrados horizontalmente */
+    align-items: center; /* Centrados verticalmente */
+    height: 50vh; /* Altura de toda la pantalla */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+/* Exercici 1.7: Ítems en fila, alineados al fondo y a la derecha */
+.container7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Alinea los ítems en la parte inferior */
+    align-items: flex-end; /* Alinea los ítems a la derecha */
+    height: 50vh; /* Altura de toda la pantalla */
+    gap: 15px;
+}
+
+/* Exercici 1.8: Mostrar ítems en columna alineados al inicio */
+.container8 {
+    display: flex;
+    flex-direction: column; /* Los elementos se colocan en columna */
+    justify-content: flex-start; /* Sin espacio adicional */
+    height: 400px; /* Altura del contenedor */
+}
+
+/* Exercici 1.9: Espaciado ajustado en vertical */
+.container9 {
+    display: flex;
+    flex-direction: column; /* Columna */
+    justify-content: space-between; /* Espacio ajustado vertical */
+    gap: 100px;
+}
+
+/* Exercici 1.10: Separación de 10px entre ítems */
+.container10 {
+    display: flex;
+    flex-direction: column; /* Columna */
+    align-items: flex-end; /* Alineados a la derecha */
+    gap: 10px; /* Espacio reducido de 10px entre ítems */
+    height: 400px; /* Altura fija del contenedor */
+    justify-content: center; /* Centra los elementos verticalmente */
+}
+
+.blau{
+    background-color: blue;
+
+}
+
+.vermell {
+    background-color: red;
+}
+
+.groc{
+    background-color: yellow;
+
+}
