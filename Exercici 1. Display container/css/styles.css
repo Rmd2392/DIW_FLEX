@@ -25,7 +25,7 @@
 /* Exercici 1.3: Espacio igual entre los ítems en fila */
 .container3 {
     display: flex;
-    justify-content: space-around; /* Se distribuyen con espacio igual */
+    justify-content: space-evenly;
     align-items: center; /* Alineados verticalmente en el centro */
 }
 
@@ -41,9 +41,9 @@
 /* Exercici 1.5: Ítems en vertical con altura de 400px */
 .container5 {
     display: flex;
+    flex-direction: row; 
     height: 400px; /* Altura del contenedor */
-    justify-content: space-around; /* Espacio igual entre los ítems */
-    align-items: stretch; /* Los elementos hijos ocuparán toda la altura */
+    justify-content: space-evenly;
 }
 
 /* Exercici 1.6: Ítems centrados en la pantalla */
