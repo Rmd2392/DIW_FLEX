@@ -1,0 +1,218 @@
+.el {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
+
+.containerInicial{
+    border: 1px solid black;
+    background-color: rgb(207, 218, 218);
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Exercici 2.1*/
+.container2_1{
+    border: 1px solid black;
+    background-color: rgb(207, 218, 218);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container2_1 > div {
+    width: 25%;
+}
+
+/* Exercici 2.2 */
+.container2_2{
+    border: 1px solid black;
+    background-color: rgb(207, 218, 218);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container2_2 > div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Exercici 2.3 */
+.container2_3{
+    border: 1px solid black;
+    background-color: rgb(207, 218, 218);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5px;
+}
+
+.container2_3 > div {
+    width: calc(25% - 5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Exercici 2.4 */
+.container2_4{
+    border: 1px solid black;
+    background-color: rgb(207, 218, 218);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5px;
+    row-gap: 15px;
+}
+
+.container2_4 > div {
+    width: calc(25% - 5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_4 :nth-child(5) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Exercici 2.5 */
+.container2_5{
+    border: 1px solid black;
+    background-color: rgb(207, 218, 218);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5px;
+    row-gap: 15px;
+}
+
+.container2_5 > div {
+    width: calc(25% - 5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_5 :nth-child(5) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_5 :nth-child(8) {
+    width: 49.91%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Exercici 2.6 */
+.container2_6{
+    border: 1px solid black;
+    background-color: rgb(207, 218, 218);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5px;
+    row-gap: 15px;
+}
+
+.container2_6 > div {
+    width: calc(25% - 5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container2_6 :nth-child(5) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_6 :nth-child(8) {
+    width: 49.73%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_6 .img {
+    width: 26.2vh;
+    object-fit: fill;
+}
+
+
+/* Exercici 2.7 */
+.container2_7{
+    border: 1px solid black;
+    background-color: rgb(207, 218, 218);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container2_7 > div {
+    height: calc(25% - 5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2_7 :nth-child(9) {
+    height: 100%;
+}
+
+
+
+/* Estilos generales de paletas de colores */
+
+
+/* Estilo general color rojo pastel */
+.vermell{
+    background-color: rgb(255, 179, 186);
+}
+
+/* Estilo general color naranja pastel */
+.taronja{
+    background-color: rgb(255, 223, 186);
+}
+
+/* Estilo general color verde pastel */
+.verd{
+    background-color: rgb(186, 255, 201);
+}
+
+/* Estilo general color azul pastel */
+.blau{
+    background-color: rgb(186, 255, 255);
+}
+
+/* Estilo general color lila pastel */
+.lila{
+    background-color: rgb(224, 186, 255);
+}
+
+.img {
+    width: calc(25% -5px);
+}
+
